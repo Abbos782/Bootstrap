@@ -1,0 +1,16 @@
+.navbar{
+	border-bottom: 1px solid #E5E5E5;
+	box-shadow: 0 0 10px #E5E5E5;
+	background-color: #fff;
+}
+.pricing__text{
+	margin: 0 auto;
+	width: 50%;
+}
+.card-text{
+	margin: 0 auto;
+	width: 50%;
+}
+.box-crat__btn{
+	border:1px solid #0d6efd;
+}
