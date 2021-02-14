@@ -32,8 +32,10 @@
 				</li>
 
 			</ul>
-			<form class="d-flex mx-4">
-				<button class="btn btn-outline-success" type="submit">Search</button>
+			<form class="d-flex mx-4 " style="width: 100px;">
+				<button type="button"  class="btn btn-outline-primary w-100 mb-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+					Sing up
+				</button>
 			</form>
 
 		</div>
@@ -63,7 +65,9 @@
 							
 						</div>
 						<form class="d-flex mx-4  ">
-							<button class="btn btn-outline-primary w-100 mb-2" type="submit">Search</button>
+							<button type="button"  class="btn btn-outline-primary w-100 mb-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+								Search
+							</button>
 						</form>
 					</div>
 				</div>
@@ -78,14 +82,16 @@
 							
 						</div>
 						<form class="d-flex mx-4 ">
-							<button class="btn btn-outline-primary w-100 mb-2" type="submit">Search</button>
+							<button type="button"  class="btn btn-outline-primary w-100 mb-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+								Search
+							</button>
 						</form>
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="card text-center ">
 						<div class="card-header">
-                          <h2>Enterprise</h2>
+							<h2>Enterprise</h2>
 						</div>
 						<div class="card-body m-3">
 							<h5 class="card-title "><span class="fs-3">$29</span>/mo</h5>
@@ -93,7 +99,10 @@
 							
 						</div>
 						<form class="d-flex mx-4">
-							<button class="btn btn-outline-primary w-100 mb-2" type="submit">Search</button>
+							<button type="button"  class="btn btn-outline-primary w-100 mb-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+								Search
+							</button>
+
 						</form>
 					</div>
 
@@ -101,8 +110,54 @@
 			</div>
 		</div>
 	</section>
-       
 
-	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-</body>
-</html>
+	<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputPassword1" class="form-label">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1">
+						</div>
+
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+				
+			</div>
+		</div>
+		<footer class="footer">
+			  <div class="container">
+			  	  <div class="row">
+			  	  	  <div class="colo-lg-3">
+			  	  	  	 <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-top">
+			  	  	  </div>
+			  	  	  <div class="colo-lg-3">
+			  	  	  	
+			  	  	  </div>
+			  	  	  <div class="colo-lg-3">
+			  	  	  	
+			  	  	  </div>
+			  	  	  <div class="colo-lg-3">
+			  	  	  	
+			  	  	  </div>
+			  	  </div>
+			  </div>
+		</footer>
+
+
+
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+
+	</html>
